@@ -1,0 +1,347 @@
+/*
+Master Stylesheet
+============================
+Template Name : Minimo
+Author: Fouzia Chowdhury
+Author Url: https://fouzia.com
+Descriptions: PSD TO HTML Practise
+Version: 1.0.0
+Tag: Blog
+
+font-family: 'PT Sans', sans-serif;
+*/
+
+/*
+Table of Contents
+==============================
+1. Typhography
+2. Header
+3. Banner
+4. Feature
+5. Footer
+*/
+
+/*============================
+       Typhography
+==============================*/
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap');
+
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #626262;
+}
+h1,h2,h3,h4,h5,h6{
+	font-size: 30px;
+	color: #010101;
+	font-weight: 400;
+	line-height: 35px;
+	margin: 0;
+}
+h1{
+	
+	font-weight: 700;
+	
+}
+h2{
+	font-size: 22px;
+	font-weight: 490;
+	line-height: 25px;
+
+}
+h3{
+	font-size: 20px;
+	font-weight: 480;
+	line-height: 25px;
+	color: #313841;
+
+}
+p{
+	margin: 0;
+}
+/*---------------------------------
+            Header
+==================================*/
+header{
+	background: #fcdb00;
+
+}
+.container{
+	width: 75%;
+	margin:0 auto;
+}
+.menu{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 50px 0;
+	padding-right:0;
+	align-items: center;
+
+}
+.logo{
+	width: 20%;
+}
+.navbar{
+	width: 60%;
+
+}
+.navbar ul{
+	text-align: right;
+
+
+}
+.navbar ul li{
+	display: inline-block;
+
+}
+.navbar ul li a{
+	text-decoration: none;
+	font-size: 22px;
+	font-weight: 700;
+	color: #010101;
+	text-transform: capitalize;
+	padding: 0 35px;
+
+}
+.navbar ul li a:hover{
+	color:#fff;
+	transition: 3s all ease-in-out;
+}
+.navbar ul li:last-child a{
+	padding-right: 0;
+}
+/*--------------------------------
+             Banner
+==================================*/
+.banner{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding-bottom: 70px;
+}
+.content{
+	width: 35%;
+}
+.banner-img{
+	width: 40%;
+	text-align: right;
+	padding-right: 35px;
+
+}
+.subtitle{
+	padding: 25px 0;
+}
+.banner-icon{
+	padding:35px 0;
+
+}
+.banner-icon ul{
+         padding:0;
+         margin: 0;
+
+}
+.banner-icon ul li{
+	display: inline-block;
+	padding-right:30px;
+	font-size: 42px;
+	color: #010101;
+
+}
+/*=========================================
+              Feature Part
+=========================================*/
+main{
+	background: #ffffff;
+	display: block;
+	padding-bottom: 45px;
+	
+}
+.head-part{
+	width: 75%;
+	margin: 0 auto;
+	padding: 90px 0;
+}
+.header{
+	text-align: center;
+	padding-bottom: 13px;
+}
+.header-c{
+	color:#333333;
+	padding: 0 20%;
+	text-align: center;
+    line-height: 20px;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.feature-part, .part-2{
+	width: 75%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.feature-item{
+	width: 27%;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 70px;
+
+
+}
+.feature-icon{
+	width: 23%;
+	color: #010101;
+	font-size: 35px;
+	line-height: 0;
+
+	
+}
+.feature-content{
+	width: 80%;
+}
+.feature-content h2{
+	color: #000000;
+	font-weight: 500;
+}
+.feature-content p{
+	color: #999999;
+	padding: 15px 0;
+	font-weight: 490;
+
+}
+	
+ /*===================================
+           Footer
+ ===================================*/
+footer{
+	background:#010101;
+	padding:100px 0;
+
+
+}
+footer .head{
+	width: 78%;
+	margin: 0 auto;
+	padding: 0;
+
+}
+.news-c{
+	width: 70%;
+	margin: 0 auto;
+}
+ .news-c h1{
+ 	text-align: center;
+ 	color:#fcdb00;
+ 	padding-bottom: 15px;
+ }
+ .news-c h3{
+ 	text-align: center;
+ 	color: #898989;
+ 	word-break: break-all;
+ }
+ form{
+ 	padding: 50px 0;
+ 	width: 70%;
+ 	margin: 0px auto;
+ 	display:flex;
+ 	justify-content:space-between;
+ }
+input[type=email]{
+	width: 80%;
+	height:47px;
+	border:none;
+	border: 2px solid transparent;
+    border-radius: 3px;
+    padding: 0 25px;
+}
+input[type=email]:focus{
+    outline:none;
+    border-color:#fcdb00;
+}
+button{
+	width:18%;
+	height:47px;
+	border:none;
+	border: 2px solid transparent;
+	background:#fcdb00;
+	font-size:16px;
+	font-weight: 700;
+	color:#010101;
+	border-radius: 3px;
+	cursor:pointer;
+}
+button:hover{
+	border-color:#fcdb00;
+	background:transparent;
+	color:#fcdb00;
+	transition: .3s all ease-in-out;
+}
+button:focus{
+	outline:none;
+}
+.social{
+	width: 26%;
+	margin:0 auto;
+	padding: 20px 0;
+
+}
+.social ul{
+	display: flex;
+	justify-content:space-between;
+
+	
+}
+.social ul li{
+	display:inline-block;
+	height: 38px;
+	width: 39px;
+	background:#fcdb00;
+	border-radius: 7px;
+
+}
+.social ul li:hover{
+	background:#898989;
+	transition: .3s all ease-in-out;
+}
+
+.social ul li a{
+	color:#010101;
+	display: block;
+	
+
+} .social ul li i{
+	font-size: 26px;
+	margin: 15%;
+	
+}
+.end-part{
+	width: 78%;
+	margin: 0 auto;
+	
+	
+	
+}
+.menu-part{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 10%;
+    padding-top: 90px;
+  
+   
+    
+}
+.menu-part ul li{
+	color:#ffff;
+	display:block;
+	font-weight: 480;
+	font-size: 14px;
+}
